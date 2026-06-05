@@ -5,7 +5,7 @@
 ## Author(s)
 
 ## Contribution Mode
-Human-led, AI-assisted / Human–AI co-developed / AI-led, human-curated / AI-generated, unverified
+No AI involvement / Human-led, AI-assisted / Human–AI co-developed / AI-led, human-curated / AI-generated, unverified
 
 ## Current Validation Status
 Unreviewed Working Paper / Community Commented / Reference Checked / Expert Reviewed / Revised After Critique / Challenged / Provisionally Validated / Superseded / Retracted
