@@ -65,6 +65,9 @@ What problem, gap, question, or possibility does this work address?
 
 Choose one:
 
+### No AI involvement
+The work was produced without AI tools. The submitter still accepts responsibility for the submission's claims, sources, errors, and revisions.
+
 ### Human-led, AI-assisted
 The human originated and directed the inquiry. AI helped with brainstorming, drafting, critique, coding, literature exploration, formalization, editing, or refinement.
 
@@ -81,7 +84,7 @@ The work is mostly AI output and has not yet been meaningfully checked or inhabi
 
 ## Section 6 — AI Assistance Disclosure
 
-Describe how AI tools were used.
+If there was no AI involvement, state that directly. Otherwise, describe how AI tools were used.
 
 Check all that apply:
 
