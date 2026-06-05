@@ -4,6 +4,14 @@ The Listening Commons separates how a work was produced from how good it is.
 
 Contribution Mode is not a quality rating. It is a disclosure category.
 
+## No AI involvement
+
+The work was produced without AI tools. The submitter still accepts responsibility for the submission's claims, sources, errors, and revisions.
+
+Example statement:
+
+> This paper was produced without AI involvement. The author originated, drafted, revised, and verified the work, and takes responsibility for the submission.
+
 ## Human-led, AI-assisted
 
 The human originated and directed the inquiry. AI helped with brainstorming, drafting, critique, coding, literature exploration, formalization, editing, or refinement.
