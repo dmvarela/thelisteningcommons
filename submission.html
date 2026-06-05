@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Submit | The Listening Commons</title>
+    <meta name="description" content="Static submission form for The Listening Commons.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="index.html">The Listening Commons</a>
+        <div class="nav-links">
+          <a href="charter.html">Charter</a>
+          <a aria-current="page" href="submission.html">Submit</a>
+          <a href="contribution-modes.html">Modes</a>
+          <a href="validation-rubric.html">Rubric</a>
+          <a href="browse.html">Browse</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main" class="page">
+      <div class="page-header">
+        <p class="eyebrow">Static submission form</p>
+        <h1>Share work for open posting and possible validation.</h1>
+        <p class="lede">This prototype form does not submit anywhere yet. It establishes the disclosure and responsibility fields the commons will need.</p>
+      </div>
+
+      <form class="form" action="#" method="get">
+        <label>
+          Paper title
+          <input name="title" type="text" autocomplete="off">
+        </label>
+        <label>
+          Author or steward
+          <input name="author" type="text" autocomplete="name">
+        </label>
+        <label>
+          Contact email
+          <input name="email" type="email" autocomplete="email">
+        </label>
+        <label>
+          ORCID, website, or profile link
+          <input name="profile" type="url" autocomplete="url">
+        </label>
+        <label>
+          Field(s) / tags
+          <input name="tags" type="text" autocomplete="off">
+        </label>
+        <label>
+          Submission type
+          <select name="type">
+            <option>Working paper</option>
+            <option>Research note</option>
+            <option>Formal model</option>
+            <option>Literature synthesis</option>
+            <option>Technical proposal</option>
+            <option>Philosophical essay</option>
+            <option>Conjecture</option>
+            <option>Simulation/code exploration</option>
+            <option>Teaching resource</option>
+            <option>Critique/reply</option>
+            <option>Other</option>
+          </select>
+        </label>
+        <label>
+          Contribution mode
+          <select name="mode">
+            <option>Human-led, AI-assisted</option>
+            <option>Human-AI co-developed</option>
+            <option>AI-led, human-curated</option>
+            <option>AI-generated, unverified</option>
+          </select>
+        </label>
+        <label>
+          Formal abstract
+          <textarea name="abstract" rows="6"></textarea>
+        </label>
+        <label>
+          Main idea in your own words
+          <textarea name="own-words" rows="6"></textarea>
+        </label>
+        <label>
+          Why this matters
+          <textarea name="why-this-matters" rows="4"></textarea>
+        </label>
+        <label>
+          AI assistance disclosure
+          <textarea name="ai-disclosure" rows="5"></textarea>
+        </label>
+        <label>
+          Verification statement
+          <textarea name="verification" rows="5"></textarea>
+        </label>
+        <label>
+          Feedback requested
+          <textarea name="feedback" rows="4"></textarea>
+        </label>
+        <label>
+          Upload or link
+          <input name="upload-link" type="url">
+        </label>
+        <fieldset>
+          <legend>Requested status</legend>
+          <label class="choice"><input type="radio" name="status" value="posted" checked> Open posting</label>
+          <label class="choice"><input type="radio" name="status" value="validation"> Request validation review</label>
+        </fieldset>
+        <fieldset>
+          <legend>Human responsibility statement</legend>
+          <label class="choice"><input type="checkbox" name="responsibility"> I understand and stand behind this submission. I have disclosed AI assistance, reviewed the final work, and take responsibility for its claims, citations, errors, and revisions.</label>
+        </fieldset>
+        <button class="button primary" type="submit">Preview submission</button>
+      </form>
+    </main>
+
+    <footer class="site-footer">
+      <p>The Listening Commons is a static prototype. No backend or account system is active yet.</p>
+    </footer>
+  </body>
+</html>
